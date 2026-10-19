@@ -1,0 +1,62 @@
+[
+ {
+  "vendor": "Claude",
+  "plan": "$100 tier",
+  "metric": "pct_week_any",
+  "value": 37.0,
+  "date": "2026-10-19",
+  "source": "X",
+  "url": "https://x.com/designwkarthick/status/2112125225454477646",
+  "author": "designwkarthick",
+  "quote": "…s right now👀 I’m on the $100 plan and have used only around 37% of my weekly limit! 🔥 https://t.co/FtehrM8LQo https://t.co/SmgKFDyZgC",
+  "status": "ok"
+ },
+ {
+  "vendor": "Codex",
+  "plan": "plan not stated",
+  "metric": "pct_week_any",
+  "value": 60.0,
+  "date": "2026-10-19",
+  "source": "X",
+  "url": "https://x.com/futsoria/status/2112133182627663956",
+  "author": "futsoria",
+  "quote": "…ets and usage spikes have hurt my project. One routine task used 60% of my weekly limit in 10 minutes. Please remove the restrictive 5-hour c…",
+  "status": "ok"
+ },
+ {
+  "vendor": "Gemini",
+  "plan": "plan not stated",
+  "metric": "pct_week_any",
+  "value": 10.0,
+  "date": "2026-10-17",
+  "source": "Hacker News",
+  "url": "https://news.ycombinator.com/item?id=50134301",
+  "author": "equasar",
+  "quote": "…usable, for a small code review I asked, already spent like 10% of the weekly usage, in less than 10 mins. Very useless imho. I always find DS…",
+  "status": "ok"
+ },
+ {
+  "vendor": "Gemini",
+  "plan": "plan not stated",
+  "metric": "pct_week_any",
+  "value": 10.0,
+  "date": "2026-10-15",
+  "source": "X",
+  "url": "https://x.com/marketcallsHQ/status/2110815673115099342",
+  "author": "marketcallsHQ",
+  "quote": "30 minutes into Antigravity 10% of Weekly Limit is done! #Gemini #Argon4 https://t.co/Fwuj63G1NN",
+  "status": "ok"
+ },
+ {
+  "vendor": "Claude",
+  "plan": "$20 tier",
+  "metric": "pct_week_any",
+  "value": 1.0,
+  "date": "2026-10-09",
+  "source": "Hacker News",
+  "url": "https://news.ycombinator.com/item?id=50018632",
+  "author": "magicalhippo",
+  "quote": "…t of tests to verify against. Opus 5.5 Medium. Used at most 1% of the weekly limit of my $20 plan.",
+  "status": "ok"
+ }
+]

@@ -1,0 +1,28 @@
+name: Publish page
+# Data is collected and reviewed by the agent, committed, then this deploys docs/ to GitHub Pages.
+# Manual-only while the repo is private (GitHub Pages needs a public repo on the free plan).
+# When the repo is made public and Pages is enabled (source: GitHub Actions), add back:
+#   push: { branches: [main], paths: ["docs/**"] }
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
